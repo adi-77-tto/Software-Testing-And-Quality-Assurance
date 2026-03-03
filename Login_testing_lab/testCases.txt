@@ -1,0 +1,14 @@
+TC,username,password,expected
+TC01,admin,1234,Login Successful
+TC02,admin,1111,Invalid Credentials
+TC03,,1234,Empty Fields
+TC04,admin,,Empty Fields
+TC05,,,Empty Fields
+TC06,user,1234,Invalid Credentials
+TC07,guest,0000,Invalid Credentials
+TC08,Admin,1234,Invalid Credentials
+TC09,admin,ABCD,Invalid Credentials
+TC10,adminn,jjj,Invalid Credentials
+TC11,admin,3333,Invalid Credentials
+TC12,newuser,pass,Invalid Credentials
+TC13,,pass,Empty Fields
